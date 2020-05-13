@@ -1,6 +1,6 @@
 class Product:
 
-    def __init__(self,name):
+    def __init__(self,name,location="shelf",weight=1):
         self.name = name
-        self.location =
-        self.weight = 
+        self.location = location
+        self.weight = weight
