@@ -7,5 +7,5 @@ def test_exercise():
     table = Product.with_weight("Table", 50)
 
     assert str(coffee_cup) == "Coffee cup (1 kg) can be found from the shelf"
-    assert str(car) == "Car (1 kg) can be found from the showroom section"
+    assert str(car) == "Car (1 kg) can be found from the showroom"
     assert str(table) == "Table (50 kg) can be found from the shelf"
